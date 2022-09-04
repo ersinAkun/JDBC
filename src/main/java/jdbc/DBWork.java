@@ -22,8 +22,8 @@ public class DBWork {
         return con;
     }
 
-
-    // Yeni table olusturma methodu
+                                       
+    // Yeni table olusturma methodu                         //sql ile ayni format!
     public void createTable(Connection con, String tableName) {
         //Statement objesı olustur
 
