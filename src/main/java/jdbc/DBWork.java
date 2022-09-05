@@ -23,7 +23,7 @@ public class DBWork {
     }
 
                                        
-    // Yeni table olusturma methodu                         //sql ile ayni format!
+    // Yeni table olusturma methodu
     public void createTable(Connection con, String tableName) {
         //Statement objesı olustur
 
