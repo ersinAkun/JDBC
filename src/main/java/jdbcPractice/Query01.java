@@ -31,12 +31,13 @@ public class Query01 {
             System.out.println(veri.getInt("okul_no")+veri.getString("ogrenci_ismi")+
                               veri.getString("sinif")+veri.getString("cinsiyet"));
 
-
+    
         }
-        //6) Kapatma
+        //6) Kapatma 
         con.close();
         st.close();
         veri.close();
 
+        // 6. asamada kapatma yapilmazsa ilerleyen asamada db ile baglantida sikinti olur 
     }
 }
