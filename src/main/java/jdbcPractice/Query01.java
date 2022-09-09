@@ -38,6 +38,5 @@ public class Query01 {
         st.close();
         veri.close();
 
-        // 6. asamada kapatma yapilmazsa ilerleyen asamada db ile baglantida sikinti olur 
     }
 }
